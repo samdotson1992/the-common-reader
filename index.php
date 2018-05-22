@@ -17,7 +17,7 @@ ini_set('display_errors', 1);
 $d = new DOMDocument;
 $mock = new DOMDocument;
 $contents = file_get_contents("https://www.gutenberg.org/files/31469/31469-h/31469-h.htm")
-$strip = strip_tags($contents,'<p><div><span><h1><b><hr><img>')
+$strip = strip_tags($contents,'<p><div><span><h1><b><hr><img><body>')
 $d->loadHTML($stip);
 $body = $d->getElementsByTagName('body')->item(0);
 foreach ($body->childNodes as $child){
