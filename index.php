@@ -1,17 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-p {
-font-family: Palatino;
-font-size:12; 
-}
+<script type="text/javascript" src="main.js"></script>
+<link href="main.css" rel="stylesheet" type="text/css" />
 
-
-
-</style>
 </head>
-<h1> Hello World </h1>
 
 <?php 
 
@@ -26,10 +19,15 @@ $mock = new DOMDocument;
 $d->loadHTML(file_get_contents("https://www.gutenberg.org/files/31469/31469-h/31469-h.htm"));
 $body = $d->getElementsByTagName('body')->item(0);
 foreach ($body->childNodes as $child){
+    
     $mock->appendChild($mock->importNode($child, true));
 }
 
-echo $mock->saveHTML();
+
+
+$mock->saveHTML();
+
+echo strip_tags($mock,'<p><div><span><h1><b><hr><img>')
 
 
 ?>

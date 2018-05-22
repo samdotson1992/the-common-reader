@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-
-
-
-</style>
+<script type="text/javascript" src="main.js"></script>
+<link href="main.css" rel="stylesheet" type="text/css" />
 </head>
-<h1> Hello World </h1>
 
 
+<style>
+        .b {
+            border: none;
+            padding: 10px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 20px;
+            cursor: pointer;
+        }
+        
+        </style>
 
+<ul class="sidenav">
+        <li><a href="#library">Library</a></li>
+        <li><a href="#settings">Settings</a></li>
+
+        <li> <button class ="b" type="button" onclick= "fontChange(-1)" > - </button></li>
+                
+                <li> <button class ="b" type="button" 
+                        onclick= "fontChange(1)" > + </button></li>
+
+        <li> <button class ="b" style="background-color:whitesmoke" type="button" 
+onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> </button></li>
+
+<li> <button class ="b" style="background-color:#efcba7" type="button" 
+        onclick="document.getElementById('book').style.backgroundColor = '#efcba7'"> </button></li>
+
+</ul>
+      
 
 <pre>
 
@@ -47,7 +73,7 @@ Distributed Proofreading Team at http://www.pgdp.net
 
 </pre>
 
-
+<div id ="book">
 <div class="bk1"><div class="bk2"><i><span class="sp1">The</span></i></div>
 <h1><span class="sp1"><span class="sp2">The </span><span class="sp3"><i>S</i></span>hunned House</span></h1>
 
@@ -2166,6 +2192,6 @@ subscribe to our email newsletter to hear about new eBooks.
 </pre>
 
 
-
+</div>
 </body>
 </html>
