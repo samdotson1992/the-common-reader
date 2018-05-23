@@ -33,6 +33,7 @@ echo $mock->saveHTML();
 
 <script>
 var page = <?php echo $mock ?>;
+console.log(page)
 
 </script>
 
