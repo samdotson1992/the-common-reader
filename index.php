@@ -30,5 +30,13 @@ echo $mock->saveHTML();
 
 ?>
 
+
+<script>
+var page = $mock;
+
+</script>
+
+
+
 </body>
 </html>
