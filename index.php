@@ -6,8 +6,28 @@
 
 </head>
 
-<?php 
+<body> 
 
+
+<ul class="sidenav">
+        <li><a href="#library">Library</a></li>
+        <li><a href="#settings">Settings</a></li>
+
+        <li> <button class ="b" type="button" onclick= "fontChange(-1)" > - </button></li>
+                
+                <li> <button class ="b" type="button" 
+                        onclick= "fontChange(1)" > + </button></li>
+
+        <li> <button class ="b" style="background-color:whitesmoke" type="button" 
+onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> </button></li>
+
+<li> <button class ="b" style="background-color:#efcba7" type="button" 
+        onclick="document.getElementById('book').style.backgroundColor = '#efcba7'"> </button></li>
+
+</ul>
+      
+
+<?php 
 
 //$html = file_get_contents("https://www.gutenberg.org/files/31469/31469-h/31469-h.htm");
 error_reporting(E_ALL);
@@ -26,8 +46,6 @@ foreach ($body->childNodes as $child){
 
 echo $mock->saveHTML();
 
-
-
 ?>
 
 
@@ -36,8 +54,6 @@ var pres = document.getElementsByTagName("pre")
 pres[0].remove()
 pres[0].remove()
 </script>
-
-
 
 </body>
 </html>
