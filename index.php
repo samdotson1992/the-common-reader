@@ -8,7 +8,7 @@
 
 <body id = "book" > 
 
-<div>
+<div class = "container" >
 <ul class="sidenav">
         <li><a href="#library">Library</a></li>
         <li><a href="#settings">Settings</a></li>
@@ -28,7 +28,9 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
 
 </div>
 
-<div> 
+
+
+<div class = "container" > 
 
 <?php 
 
