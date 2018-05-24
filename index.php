@@ -8,7 +8,7 @@
 
 <body id = "book" > 
 
-
+<div>
 <ul class="sidenav">
         <li><a href="#library">Library</a></li>
         <li><a href="#settings">Settings</a></li>
@@ -25,7 +25,10 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
         onclick="document.getElementById('book').style.backgroundColor = '#efcba7'"> </button></li>
 
 </ul>
-      
+
+</div>
+
+<div> 
 
 <?php 
 
@@ -44,10 +47,11 @@ foreach ($body->childNodes as $child){
     $mock->appendChild($mock->importNode($child, true));
 }
 
+
 echo $mock->saveHTML();
 
 ?>
-
+ </div>
 
 <script>
 var pres = document.getElementsByTagName("pre")
