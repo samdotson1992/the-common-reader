@@ -32,9 +32,9 @@ echo $mock->saveHTML();
 
 
 <script>
-var page = <?php echo $mock ?>;
-console.log(page)
-
+var pres = document.getElementsByTagName("pre")
+pres[0].remove()
+pres[0].remove()
 </script>
 
 
