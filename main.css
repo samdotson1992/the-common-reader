@@ -45,7 +45,23 @@ background-color: whitesmoke;
 }
 
 
-#buffer{
+.container {
+    zoom: 1; /* IE6&7 */
+}
 
-    
+.container:before,
+.container:after {
+    content: "";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+.buffer {
+
+padding: 3em;
+margin: 2em;
+
 }
