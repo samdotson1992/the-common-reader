@@ -1,4 +1,4 @@
-var font_size = 12;
+var font_size = 15;
 
 function fontChange(n){
     font_size +=n;

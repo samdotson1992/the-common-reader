@@ -38,6 +38,8 @@ li a:hover {
 }
 
 
-pre {
-    color: whitesmoke;
+
+body {
+font-size: 15px;
+background-color: whitesmoke;
 }
