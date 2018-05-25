@@ -8,22 +8,33 @@
 
 <body id="book"> 
 
-<ul class="sidenav">
-        <li><a href="#library">Library</a></li>
-        <li><a href="#settings">Settings</a></li>
 
-        <li> <button class ="b" type="button" onclick= "fontChange(-1)" > - </button></li>
-                
-                <li> <button class ="b" type="button" 
-                        onclick= "fontChange(1)" > + </button></li>
+<div class="navbar">
+       <a href="#library">Library</a>
+        <a href="#settings">Settings</a>
+        <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Dropdown
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+                </div>
 
-        <li> <button class ="b" style="background-color:whitesmoke" type="button" 
-onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> </button></li>
+        <div class="dropdown">
+                <button class="dropbtn" onclick="myFunction()">Dropdown
+                <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                <button class ="b" style="background-color:whitesmoke" type="button" 
+                onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> </button>
+                <button class ="b" style="background-color: wheat" type="button" 
+                onclick="document.getElementById('book').style.backgroundColor = 'wheat'"> </button>
+        </div>
+        </div> 
+        </div>        
 
-<li> <button class ="b" style="background-color: wheat" type="button" 
-        onclick="document.getElementById('book').style.backgroundColor = 'wheat'"> </button></li>
-
-</ul>
       
 
 <pre>
