@@ -39,17 +39,14 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
     </ul>
   </div>
 </nav>
-<h1>
-<?php 
 
-echo "http://www.gutenberg.org" . $_GET['book']
-?>
-</h1>
 
   <div class = "container"  > 
 
 <div id = "book">
 <?php 
+
+$url = "http://www.gutenberg.org" . $_GET['book']
 
 error_reporting(E_ERROR | E_PARSE);
 //$html = file_get_contents("https://www.gutenberg.org/files/31469/31469-h/31469-h.htm");
@@ -59,7 +56,7 @@ error_reporting(E_ERROR | E_PARSE);
 
 $d = new DOMDocument;
 $mock = new DOMDocument;
-$contents = file_get_contents("http://www.gutenberg.org/files/1342/1342-h/1342-h.htm");
+$contents = file_get_contents($url);
 $d->loadHTML($contents);
 $body = $d->getElementsByTagName('body')->item(0);
 foreach ($body->childNodes as $child){
