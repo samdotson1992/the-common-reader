@@ -25,7 +25,7 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
         onclick="document.getElementById('book').style.backgroundColor = '#efcba7'"> </button></li>
         </ul>
       </li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Font Size <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li> <button  href="#" class ="btn" onclick = "fontChange('x-small')" > x-small  </button></li>
           <li> <button  href="#" class ="btn" onclick = "fontChange('small')" > small  </button></li>
