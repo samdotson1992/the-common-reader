@@ -41,9 +41,9 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
 </nav>
 
 
-  <div class = "container"  id = "book" > 
+  <div class = "container"  > 
 
-  <div class = "jumbotron" >
+  <div class = "jumbotron" id = "book" >
 <?php 
 
 error_reporting(E_ERROR | E_PARSE);
