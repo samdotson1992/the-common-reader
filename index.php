@@ -19,9 +19,9 @@
       <li class="active"><a href="#">Library</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Background Color<span class="caret"></span></a>
         <ul class="dropdown-menu">
-        <li> <button class ="#" style="background-color:whitesmoke" type="button"
+        <li> <button  href="#" class = "b" style="background-color:whitesmoke" type="button"
 onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> </button></li>        
-<li> <button class ="#" style="background-color:#efcba7" type="button"
+<li> <button  href="#" class ="b" style="background-color:#efcba7" type="button"
         onclick="document.getElementById('book').style.backgroundColor = '#efcba7'"> </button></li>
         </ul>
       </li>
