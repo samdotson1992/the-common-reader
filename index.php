@@ -19,20 +19,20 @@
       <li class="active"><a href="#">Library</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Background Color<span class="caret"></span></a>
         <ul class="dropdown-menu">
-        <li> <button  href="#" class = "btn-lg" style="background-color:whitesmoke" type="button"
+        <li> <button  href="#" class = "btn-lg btn-block" style="background-color:whitesmoke" type="button"
 onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> </button></li>        
-<li> <button  href="#" class ="btn-lg" style="background-color:#efcba7" type="button"
+<li> <button  href="#" class ="btn-lg btn-block" style="background-color:#efcba7" type="button"
         onclick="document.getElementById('book').style.backgroundColor = '#efcba7'"> </button></li>
         </ul>
       </li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Font Size <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li> <button  href="#" class ="btn-md  btn-primary btn-block" onclick = "document.getElementById('book').style.fontSize = 'x-small'" > x-small  </button></li>
-          <li> <button  href="#" class ="btn-md  btn-primary btn-block" onclick = "document.getElementById('book').style.fontSize = 'small'" > small  </button></li>
-          <li> <button  href="#" class ="btn-md  btn-primary btn-block" onclick = "document.getElementById('book').style.fontSize = 'medium'" > medium  </button></li>
-          <li> <button  href="#" class ="btn-md  btn-primary btn-block" onclick = "document.getElementById('book').style.fontSize = 'large'" > large  </button></li>
-          <li> <button  href="#" class ="btn-md  btn-primary btn-block" onclick = "document.getElementById('book').style.fontSize = 'x-large'" > x-large  </button></li>
-          <li> <button  href="#" class ="btn-md  btn-primary btn-block" onclick = "document.getElementById('book').style.fontSize = 'xx-large'" > xx-large  </button></li>
+          <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontSize = 'x-small'" > x-small  </button></li>
+          <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontSize = 'small'" > small  </button></li>
+          <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontSize = 'medium'" > medium  </button></li>
+          <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontSize = 'large'" > large  </button></li>
+          <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontSize = 'x-large'" > x-large  </button></li>
+          <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontSize = 'xx-large'" > xx-large  </button></li>
         </ul>
       </li>
         </ul>
@@ -41,7 +41,7 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
 </nav>
 
 
-  <div class = "container-fuild well"  id = "book" > 
+  <div class = "container-fuild"  id = "book" > 
 <?php 
 
 //$html = file_get_contents("https://www.gutenberg.org/files/31469/31469-h/31469-h.htm");
