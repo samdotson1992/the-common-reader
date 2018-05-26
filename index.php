@@ -39,7 +39,12 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
     </ul>
   </div>
 </nav>
+<h1>
+<?php 
 
+echo "http://www.gutenberg.org" + $_GET['book']
+?>
+</h1>
 
   <div class = "container"  > 
 
