@@ -11,7 +11,7 @@
 <body id = "book" > 
 
 <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
+  <div class="container-fluid well">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">The Common Reader</a>
     </div>
@@ -19,20 +19,20 @@
       <li class="active"><a href="#">Library</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Background Color<span class="caret"></span></a>
         <ul class="dropdown-menu">
-        <li> <button  href="#" class = "b" style="background-color:whitesmoke" type="button"
+        <li> <button  href="#" class = "btn-lg" style="background-color:whitesmoke" type="button"
 onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> </button></li>        
-<li> <button  href="#" class ="btn" style="background-color:#efcba7" type="button"
+<li> <button  href="#" class ="btn-lg" style="background-color:#efcba7" type="button"
         onclick="document.getElementById('book').style.backgroundColor = '#efcba7'"> </button></li>
         </ul>
       </li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Font Size <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li> <button  href="#" class ="btn" onclick = "document.getElementById('book').style.fontSize = x-small" > x-small  </button></li>
-          <li> <button  href="#" class ="btn" onclick = "document.getElementById('book').style.fontSize = small" > small  </button></li>
-          <li> <button  href="#" class ="btn" onclick = "document.getElementById('book').style.fontSize = medium " > medium  </button></li>
-          <li> <button  href="#" class ="btn" onclick = "document.getElementById('book').style.fontSize = large" > large  </button></li>
-          <li> <button  href="#" class ="btn" onclick = "document.getElementById('book').style.fontSize = x-large" > x-large  </button></li>
-          <li> <button  href="#" class ="btn" onclick = "document.getElementById('book').style.fontSize = xx-large" > xx-large  </button></li>
+          <li> <button  href="#" class ="btn-md" onclick = "document.getElementById('book').style.fontSize = 'x-small'" > x-small  </button></li>
+          <li> <button  href="#" class ="btn-md" onclick = "document.getElementById('book').style.fontSize = 'small'" > small  </button></li>
+          <li> <button  href="#" class ="btn-md" onclick = "document.getElementById('book').style.fontSize = 'medium'" > medium  </button></li>
+          <li> <button  href="#" class ="btn-md" onclick = "document.getElementById('book').style.fontSize = 'large'" > large  </button></li>
+          <li> <button  href="#" class ="btn-md" onclick = "document.getElementById('book').style.fontSize = 'x-large'" > x-large  </button></li>
+          <li> <button  href="#" class ="btn-md" onclick = "document.getElementById('book').style.fontSize = 'xx-large'" > xx-large  </button></li>
         </ul>
       </li>
         </ul>
@@ -41,7 +41,7 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
 </nav>
 
 
-    
+  <div class = "container" > 
 <?php 
 
 //$html = file_get_contents("https://www.gutenberg.org/files/31469/31469-h/31469-h.htm");
@@ -64,12 +64,13 @@ echo $mock->saveHTML();
 
 ?>
 
-
 <script>
 var pres = document.getElementsByTagName("pre")
 pres[0].remove()
 pres[0].remove()
 </script>
+
+</div>
 
 </body>
 </html>
