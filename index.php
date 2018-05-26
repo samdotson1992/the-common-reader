@@ -10,7 +10,7 @@
 
 <body > 
 
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">The Common Reader</a>
@@ -41,7 +41,9 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
 </nav>
 
 
-  <div class = "container-fuild"  id = "book" > 
+  <div class = "container"  id = "book" > 
+
+  <div class = "jumbotron" >
 <?php 
 
 //$html = file_get_contents("https://www.gutenberg.org/files/31469/31469-h/31469-h.htm");
@@ -63,6 +65,9 @@ foreach ($body->childNodes as $child){
 echo $mock->saveHTML();
 
 ?>
+
+</div> 
+
 
 <script>
 var pres = document.getElementsByTagName("pre")
