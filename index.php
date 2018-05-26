@@ -21,12 +21,21 @@
         <ul class="dropdown-menu">
         <li> <button  href="#" class = "b" style="background-color:whitesmoke" type="button"
 onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> </button></li>        
-<li> <button  href="#" class ="b" style="background-color:#efcba7" type="button"
+<li> <button  href="#" class ="btn" style="background-color:#efcba7" type="button"
         onclick="document.getElementById('book').style.backgroundColor = '#efcba7'"> </button></li>
         </ul>
       </li>
-      <li><a href="#">Page 2</a></li>
-      <li><a href="#">Page 3</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li> <button  href="#" class ="btn" onclick = "fontChange('x-small')" > x-small  </button></li>
+          <li> <button  href="#" class ="btn" onclick = "fontChange('small')" > small  </button></li>
+          <li> <button  href="#" class ="btn" onclick = "fontChange('medium')" > medium  </button></li>
+          <li> <button  href="#" class ="btn" onclick = "fontChange('large')" > large  </button></li>
+          <li> <button  href="#" class ="btn" onclick = "fontChange('x-large')" > x-large  </button></li>
+          <li> <button  href="#" class ="btn" onclick = "fontChange('xx-large')" > xx-large  </button></li>
+        </ul>
+      </li>
+        </ul>
     </ul>
   </div>
 </nav>
