@@ -8,10 +8,10 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 
-<body id = "book" > 
+<body > 
 
 <nav class="navbar navbar-inverse">
-  <div class="container-fluid well">
+  <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">The Common Reader</a>
     </div>
@@ -27,12 +27,12 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
       </li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Font Size <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li> <button  href="#" class ="btn-md" onclick = "document.getElementById('book').style.fontSize = 'x-small'" > x-small  </button></li>
-          <li> <button  href="#" class ="btn-md" onclick = "document.getElementById('book').style.fontSize = 'small'" > small  </button></li>
-          <li> <button  href="#" class ="btn-md" onclick = "document.getElementById('book').style.fontSize = 'medium'" > medium  </button></li>
-          <li> <button  href="#" class ="btn-md" onclick = "document.getElementById('book').style.fontSize = 'large'" > large  </button></li>
-          <li> <button  href="#" class ="btn-md" onclick = "document.getElementById('book').style.fontSize = 'x-large'" > x-large  </button></li>
-          <li> <button  href="#" class ="btn-md" onclick = "document.getElementById('book').style.fontSize = 'xx-large'" > xx-large  </button></li>
+          <li> <button  href="#" class ="btn-md  btn-primary btn-block" onclick = "document.getElementById('book').style.fontSize = 'x-small'" > x-small  </button></li>
+          <li> <button  href="#" class ="btn-md  btn-primary btn-block" onclick = "document.getElementById('book').style.fontSize = 'small'" > small  </button></li>
+          <li> <button  href="#" class ="btn-md  btn-primary btn-block" onclick = "document.getElementById('book').style.fontSize = 'medium'" > medium  </button></li>
+          <li> <button  href="#" class ="btn-md  btn-primary btn-block" onclick = "document.getElementById('book').style.fontSize = 'large'" > large  </button></li>
+          <li> <button  href="#" class ="btn-md  btn-primary btn-block" onclick = "document.getElementById('book').style.fontSize = 'x-large'" > x-large  </button></li>
+          <li> <button  href="#" class ="btn-md  btn-primary btn-block" onclick = "document.getElementById('book').style.fontSize = 'xx-large'" > xx-large  </button></li>
         </ul>
       </li>
         </ul>
@@ -41,7 +41,7 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
 </nav>
 
 
-  <div class = "container" > 
+  <div class = "container-fuild well"  id = "book" > 
 <?php 
 
 //$html = file_get_contents("https://www.gutenberg.org/files/31469/31469-h/31469-h.htm");
