@@ -43,9 +43,7 @@ onclick="document.getElementClassName('jumbotron').style.backgroundColor = 'whit
 
   <div class = "container"  > 
 
-  <div class = "jumbotron" >
-
-  <div id = "book">
+<div id = "book">
 <?php 
 
 error_reporting(E_ERROR | E_PARSE);
@@ -71,7 +69,7 @@ echo $mock->saveHTML();
 
 
 </div>
-</div> 
+
 
 
 <script>
