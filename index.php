@@ -27,12 +27,12 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
       </li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Font Size <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li> <button  href="#" class ="btn" onclick = "fontChange('x-small')" > x-small  </button></li>
-          <li> <button  href="#" class ="btn" onclick = "fontChange('small')" > small  </button></li>
-          <li> <button  href="#" class ="btn" onclick = "fontChange('medium')" > medium  </button></li>
-          <li> <button  href="#" class ="btn" onclick = "fontChange('large')" > large  </button></li>
-          <li> <button  href="#" class ="btn" onclick = "fontChange('x-large')" > x-large  </button></li>
-          <li> <button  href="#" class ="btn" onclick = "fontChange('xx-large')" > xx-large  </button></li>
+          <li> <button  href="#" class ="btn" onclick = "document.getElementById('book').style.fontSize = x-small" > x-small  </button></li>
+          <li> <button  href="#" class ="btn" onclick = "document.getElementById('book').style.fontSize = small" > small  </button></li>
+          <li> <button  href="#" class ="btn" onclick = "document.getElementById('book').style.fontSize = medium " > medium  </button></li>
+          <li> <button  href="#" class ="btn" onclick = "document.getElementById('book').style.fontSize = large" > large  </button></li>
+          <li> <button  href="#" class ="btn" onclick = "document.getElementById('book').style.fontSize = x-large" > x-large  </button></li>
+          <li> <button  href="#" class ="btn" onclick = "document.getElementById('book').style.fontSize = xx-large" > xx-large  </button></li>
         </ul>
       </li>
         </ul>

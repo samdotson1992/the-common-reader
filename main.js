@@ -1,8 +1,8 @@
 var font_size = medium;
 
-function fontChange(n){
-    font_size +=n;
-     document.getElementById('book').style.fontSize =  ;
+function fontChange(s){
+    font_size = s 
+     document.getElementById('book').style.fontSize = font_size ;
 }
 
 
