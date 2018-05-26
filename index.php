@@ -20,9 +20,9 @@
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Background Color<span class="caret"></span></a>
         <ul class="dropdown-menu">
         <li> <button  href="#" class = "btn-lg btn-block" style="background-color:whitesmoke" type="button"
-onclick="document.getElementClassName('jumbotron').style.backgroundColor = 'whitesmoke'"> </button></li>        
+onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> </button></li>        
 <li> <button  href="#" class ="btn-lg btn-block" style="background-color:#efcba7" type="button"
-        onclick="document.getElementClassName('jumbotron').style.backgroundColor = '#efcba7'"> </button></li>
+        onclick="document.getElementById('book').style.backgroundColor = '#efcba7'"> </button></li>
         </ul>
       </li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Font Size <span class="caret"></span></a>
