@@ -42,7 +42,7 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
 <h1>
 <?php 
 
-echo "http://www.gutenberg.org" + $_GET['book']
+echo "http://www.gutenberg.org" . $_GET['book']
 ?>
 </h1>
 
