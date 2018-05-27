@@ -72,6 +72,8 @@ echo $mock->saveHTML();
 
 
 <script>
+var url = <?php echo "http://www.gutenberg.org" . $_GET['book'] ?> 
+
 var pres = document.getElementsByTagName("pre")
 pres[0].remove()
 pres[0].remove()
