@@ -16,6 +16,9 @@
 
     
     <?php
+
+    error_reporting(E_ALL);
+ini_set('display_errors', 1);
     $page = "https://www.gutenberg.org/files/31469/31469-h/31469-h.htm"
 echo '<a href="index.php?book=', urlencode($page), '">';
 ?>
