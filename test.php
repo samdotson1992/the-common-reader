@@ -3,7 +3,9 @@
 
 <h1>
 <?php
- echo $_GET['book']
+$book = $_GET['book'];
+
+echo 'https://www.gutenberg.org/files/' . $book . '/'. $book "-h/". $book . "-h.htm";
 
 ?>
 </h1>
