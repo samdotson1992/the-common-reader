@@ -13,8 +13,9 @@
 
 <div class="container">
   
-<?php $book = "/files/1342/1342-h/1342-h.htm";
-echo '<a href="test.php?book=PP"> PRIDE AND PREJUDICE  </a> '; ?>
+
+<?php $book= "1342";
+echo '<a href="test.php?book="'.urlencode($book).'"> PRIDE AND PREJUDICE </a>'; ?>
 
  
 </div>
