@@ -45,6 +45,8 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
 <div id = "book">
 <?php 
 
+$book = $_GET['book'];
+
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
@@ -61,7 +63,6 @@ foreach ($body->childNodes as $child){
     
     $mock->appendChild($mock->importNode($child, true));
 }
-
 
 echo $mock->saveHTML();
 

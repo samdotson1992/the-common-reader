@@ -13,7 +13,10 @@
 
 <div class="container">
   
-<a href= 'test.php?book=/files/1342/1342-h/1342-h.htm'>>PRIDE AND PREJUDICE</a>
+<?php $book = "/files/1342/1342-h/1342-h.htm";
+echo '<a href="index.php?book="'.urlencode($book).'"> PRIDE AND PREJUDICE  </a> '; ?>
+
+
  
 </div>
 
