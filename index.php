@@ -92,6 +92,11 @@ echo $mock->saveHTML();
 
 var pres = document.getElementsByTagName("pre")
 pres[0].remove()
+
+var toc = document.getElementsByClassName("toc")
+var toc0 = toc[0]
+toc[0].remove()
+
 </script>
 
 </div>
