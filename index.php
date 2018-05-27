@@ -25,7 +25,7 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
         onclick="document.getElementById('book').style.backgroundColor = '#efcba7'"> </button></li>
         </ul>
       </li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Font Style <span class="caret"></span></a>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">  Font Size <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontSize = 'x-small'" > x-small  </button></li>
           <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontSize = 'small'" > small  </button></li>
@@ -35,7 +35,7 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
           <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontSize = 'xx-large'" > xx-large  </button></li>
         </ul>
       </li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Font Size <span class="caret"></span></a>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Font Style  <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li> <button style = "font-family:Verdana" href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontFamily = 'Verdana'" > Verdana </button></li>
           <li> <button style = "font-family:Lucida Console" href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontFamily = 'Lucida Console'" >Lucida Console</button></li>
