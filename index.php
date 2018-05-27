@@ -51,11 +51,10 @@ ini_set('display_errors', 1);
 error_reporting(E_ERROR | E_PARSE);
 //$html = file_get_contents("https://www.gutenberg.org/files/31469/31469-h/31469-h.htm");
 
-$url = 'https://www.gutenberg.org/files/31469/31469-h/31469-h.htm'
 
 $d = new DOMDocument;
 $mock = new DOMDocument;
-$contents = file_get_contents($url);
+$contents = file_get_contents('https://www.gutenberg.org/files/31469/31469-h/31469-h.htm');
 $d->loadHTML($contents);
 $body = $d->getElementsByTagName('body')->item(0);
 foreach ($body->childNodes as $child){
