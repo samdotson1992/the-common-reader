@@ -103,10 +103,10 @@ pres[0].remove()
 
 var toc = document.getElementsByClassName("toc")
 drop_toc = ""
-for (var i in toc.length){
-  drop_toc += "<li>" + toc.item(0).innerHTML + "</li>"
 
-toc.item(0).remove()
+for (var i = toc.length - 1; i >= 0; --i) {
+  drop_toc += "<li>" +  toc[i].innerHTML + "</li>"
+  toc[i].remove();
 }
 
 document.getElementById("toc").innerHTML = drop_toc;
