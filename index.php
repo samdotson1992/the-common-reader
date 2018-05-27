@@ -46,6 +46,14 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
         </ul>
       </li>
 
+  <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Chapter <span class="caret"></span></a>
+        <ul class="dropdown-menu" id = "toc" >
+           
+
+
+        </ul>
+      </li>
+
         </ul>
     </ul>
   </div>
@@ -94,7 +102,14 @@ var pres = document.getElementsByTagName("pre")
 pres[0].remove()
 
 var toc = document.getElementsByClassName("toc")
-toc.remove()
+drop_toc = ""
+for (var i in toc){
+  drop_toc += "<li>" i.innerHTML+ "</li>"
+
+i.remove()
+}
+
+document.getElementById("toc").innerHTML = drop_toc;
 </script>
 
 </div>
