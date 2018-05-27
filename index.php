@@ -16,7 +16,7 @@
       <a class="navbar-brand" href="#">The Common Reader</a>
     </div>
     <ul class="nav navbar-nav">
-      <li class="active"><a href="library.php">Library</a></li>
+      <li class="active"><a href="library.html">Library</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Background Color<span class="caret"></span></a>
         <ul class="dropdown-menu">
         <li> <button  href="#" class = "btn-lg btn-block" style="background-color:whitesmoke" type="button"
