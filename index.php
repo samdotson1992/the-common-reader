@@ -47,12 +47,11 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
 
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-$url = "http://www.gutenberg.org" . $_GET['book']
 
 error_reporting(E_ERROR | E_PARSE);
 //$html = file_get_contents("https://www.gutenberg.org/files/31469/31469-h/31469-h.htm");
 
-
+$url = "https://www.gutenberg.org/files/31469/31469-h/31469-h.htm"
 
 $d = new DOMDocument;
 $mock = new DOMDocument;
