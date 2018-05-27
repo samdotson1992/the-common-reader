@@ -15,7 +15,7 @@
   
 
 <?php $book= "1342";
-echo '<a href="test.php?book="'.urlencode($book).'"> PRIDE AND PREJUDICE </a>'; ?>
+echo '<a href="test.php?book="'. $book .'"> PRIDE AND PREJUDICE </a>'; ?>
 
  
 </div>
