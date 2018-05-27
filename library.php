@@ -14,8 +14,7 @@
 <div class="container">
   
 <?php $book = "/files/1342/1342-h/1342-h.htm";
-echo '<a href="index.php?book=PP"> PRIDE AND PREJUDICE  </a> '; ?>
-
+echo '<a href="test.php?book=PP"> PRIDE AND PREJUDICE  </a> '; ?>
 
  
 </div>
