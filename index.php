@@ -35,6 +35,17 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
           <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontSize = 'xx-large'" > xx-large  </button></li>
         </ul>
       </li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Font Size <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontFamily = 'Verdana'" > Verdana </button></li>
+          <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontFamily = 'Lucida Console'" >Lucida Console</button></li>
+          <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontFamily = 'Arial'" > Arial </button></li>
+          <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontFamily = 'Tahoma'" >Tahoma</button></li>
+          <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontFamily = 'Times New Roman'" > Times New Roman </button></li>
+          <li> <button  href="#" class ="btn-md  btn-block" onclick = "document.getElementById('book').style.fontFamily = 'Georgia'" >Georgia</button></li>
+        </ul>
+      </li>
+
         </ul>
     </ul>
   </div>
