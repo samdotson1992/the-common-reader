@@ -104,9 +104,9 @@ pres[0].remove()
 var toc = document.getElementsByClassName("toc")
 drop_toc = ""
 for (var i in toc.length){
-  drop_toc += "<li>" + i.innerHTML+ "</li>"
-toc[0].remove()
-i.remove()
+  drop_toc += "<li>" + toc.item(0).innerHTML + "</li>"
+
+toc.item(0).remove()
 }
 
 document.getElementById("toc").innerHTML = drop_toc;
