@@ -40,18 +40,16 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
   </div>
 </nav>
 
+
   <div class = "container"  > 
 
 <div id = "book">
+
 <?php 
 
-$book = $_GET['book'];
 
-echo "<h1>".  $book. "</h1>"
-
-
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
+//error_reporting(E_ALL);
+//ini_set('display_errors', 1);
 
 error_reporting(E_ERROR | E_PARSE);
 //$html = file_get_contents("https://www.gutenberg.org/files/31469/31469-h/31469-h.htm");

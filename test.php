@@ -1,8 +1,11 @@
 <!doctype html>
 <html>
-<?php
-$url = "http://www.gutenberg.org" . $_GET['book']
 
-echo $url
+<h1>
+<?php
+ echo $_GET['book']
 
 ?>
+</h1>
+
+</html>
