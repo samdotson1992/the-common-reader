@@ -15,11 +15,11 @@
   
 
     
-    <a href= <?php echo urlencode('index.php?book=/files/1342/1342-h/1342-h.htm')?>>PRIDE AND PREJUDICE</a>
-    <a>  </a>
-    <a>  </a>
-    <a>  </a>
-    <a>  </a>
+    <?php
+    $page = "https://www.gutenberg.org/files/31469/31469-h/31469-h.htm"
+echo '<a href="index.php?book=', urlencode($page), '">';
+?>
+  
 </div>
 
 
