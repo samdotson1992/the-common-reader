@@ -54,10 +54,13 @@ onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> 
 error_reporting(E_ERROR | E_PARSE);
 //$html = file_get_contents("https://www.gutenberg.org/files/31469/31469-h/31469-h.htm");
 
+$book = $_GET['book'];
+
+$url =  'https://www.gutenberg.org/files/' . $book . '/'. $book.  '-h/'. $book . '-h.htm';
 
 $d = new DOMDocument;
 $mock = new DOMDocument;
-$contents = file_get_contents('https://www.gutenberg.org/files/31469/31469-h/31469-h.htm');
+$contents = file_get_contents($url);
 $d->loadHTML($contents);
 $body = $d->getElementsByTagName('body')->item(0);
 foreach ($body->childNodes as $child){
@@ -77,7 +80,6 @@ echo $mock->saveHTML();
 <script>
 
 var pres = document.getElementsByTagName("pre")
-pres[0].remove()
 pres[0].remove()
 </script>
 
