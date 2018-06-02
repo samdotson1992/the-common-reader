@@ -29,35 +29,20 @@ var books = {
       "number" : "74"
 }
  }
-var text = ""
+var text = "<ul>"
 for (var i in books){
-text += "<ul> <li> <a href='" + "index.php?book='" +  books.number + "> " +  books.name + "</a> </li>"
-document.getElementById("book_list").innerHTML = text
+text += "<li> <a href='" + "index.php?book='" +  books.number + "> " +  books.name + "</a> </li>"
 } 
+text += "</ul>"
 
+document.getElementById("book_list").innerHTML = text
 
 </script> 
 
 <div class="container" id ="book_list">
 
 
-
-<li>
-<a href="index.php?book=2701"> Moby Dick </a>
-</li>
-
-<li>
-    <a href="index.php?book=219"> Heart of Darkness </a>
- </li>
-
- 
-<li>
-        <a href="index.php?book=74"> The Adventures of Tom Sawyer </a>
-     </li>
     
-
-</ul>
-
 </div>
 
 
