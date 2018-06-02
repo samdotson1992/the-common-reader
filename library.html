@@ -10,13 +10,37 @@
 </head>
 
 
+<script>
+var books = {
+    0 : {
+        "name" :  "Moby Dick", 
+        "number" : "2701"
+    },
 
-<div class="container">
-  
-<ul> 
-    <li>
-<a href="index.php?book=1342"> PRIDE AND PREJUDICE </a>
-</li>
+    1 : {
+        "name" : "Heart of Darkness",
+        "number" : "219"
+       
+     }, 
+
+     2 : {
+
+      "name" : 'he Adventures of Tom Sawyer', 
+      "number" : "74"
+}
+ }
+var text = ""
+for (var i in books){
+text += "<ul> <li> <a href='" + "index.php?book='" +  books.number + "> " +  books.name + "</a> </li>"
+document.getElementById("book_list").innerHTML = text
+} 
+
+
+</script> 
+
+<div class="container" id ="book_list">
+
+
 
 <li>
 <a href="index.php?book=2701"> Moby Dick </a>
