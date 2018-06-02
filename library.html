@@ -9,6 +9,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </head>
 
+<div class="container" id ="book_list">
+    
+</div>
 
 <script>
 var books = {
@@ -29,6 +32,7 @@ var books = {
       "number" : "74"
 }
  }
+
 var text = "<ul>"
 for (var i in books){
 text += "<li> <a href='" + "index.php?book='" +  books.number + "> " +  books.name + "</a> </li>"
@@ -39,11 +43,6 @@ document.getElementById("book_list").innerHTML = text
 
 </script> 
 
-<div class="container" id ="book_list">
-
-
-    
-</div>
 
 
 </body>
