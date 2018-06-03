@@ -3,10 +3,10 @@
 <head>
 <script type="text/javascript" src="main.js"></script>
 <link href="main.css" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.1/css/calcite-web.min.css">
+<script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.1/js/calcite-web.min.js"></script>
 </head>
 
 <div class="container" id ="book_list">
@@ -15,6 +15,7 @@
 
 <script>
 var books = {
+
     0 : {
         "name" :  "Moby Dick", 
         "number" : "2701",
@@ -36,17 +37,29 @@ var books = {
 }
  }
 
-var text = "<ul>"
+var text = "<div class='grid-container'> <div class='column-18 pre-3'> <div class='block-group block-group-3-up'>"
 for (var i in books){
-text += "<li> <a href='" + "index.php?book=" +  books[i].number + "'>" +  books[i].name + "<img src='" + books[i].cover + "' width='82' height='86' alt='"+ books[i].name + "'> </a> </li>"
+text += "<div class='card block'> <figure class='card-image-wrap'> <img class='card-image' src='"+ books[i].name + "'alt='" + books[i].name + "'> <div class='card-image-caption'></div></figure> <div class='card-content'> <h4> <a href='index.php?book='" +  books[i].number + "'></a></h4></div></div>"
+
 } 
-text += "</ul>"
+text += "</div> </div></div>"
 
 document.getElementById("book_list").innerHTML = text
 
 </script> 
 
 
-
 </body>
 </html>
+
+
+
+
+
+
+
+
+   
+
+
+   
