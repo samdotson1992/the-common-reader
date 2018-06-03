@@ -19,13 +19,15 @@ var books = {
     0 : {
         "name" :  "Moby Dick", 
         "number" : "2701",
-        "cover" : "http://www.arenastage.org/shows-tickets/the-season/productions/moby-dick/images/1617-poster_moby-dick.jpg"
+        "cover" : "http://www.arenastage.org/shows-tickets/the-season/productions/moby-dick/images/1617-poster_moby-dick.jpg",
+        "desc" : ""
     },
 
     1 : {
         "name" : "Heart of Darkness",
         "number" : "219",
-        "cover" :  'https://i1.wp.com/www.brainpickings.org/wp-content/uploads/2014/01/heartofdarkness_kish6.jpg?w=680&ssl=1'
+        "cover" :  'https://i1.wp.com/www.brainpickings.org/wp-content/uploads/2014/01/heartofdarkness_kish6.jpg?w=680&ssl=1',
+        "desc" : ""
        
      }, 
 
@@ -33,11 +35,12 @@ var books = {
 
       "name" : 'The Adventures of Tom Sawyer', 
       "number" : "74",
-      "cover" : "https://upload.wikimedia.org/wikipedia/commons/1/1d/Tom_Sawyer_1876_frontispiece.jpg"
+      "cover" : "https://upload.wikimedia.org/wikipedia/commons/1/1d/Tom_Sawyer_1876_frontispiece.jpg",
+      "desc" : "A modern day warrior Mean, mean stride Today's Tom Sawyer Mean, mean pride... - Rush "
 }
  }
 
-var text = "<div class='grid-container'> <div class='column-18 pre-3'> <div class='block-group block-group-3-up'>"
+var text = "<div class='grid-container'> <div class='column-18 pre-3'> <div class='block-group block-group-6-up'>"
 for (var i in books){
 text += "<div class='card block'> <figure class='card-image-wrap'> <img class='card-image' src='"+ books[i].cover + "'alt='" + books[i].name + "'> <div class='card-image-caption'></div></figure> <div class='card-content'> <h4> <a href='index.php?book=" +  books[i].number + "'>" + books[i].name + "</a></h4></div></div>"
 
