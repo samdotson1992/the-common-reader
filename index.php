@@ -3,12 +3,17 @@
 <head>
 <script type="text/javascript" src="main.js"></script>
 <link href="main.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.1/css/calcite-web.min.css">
+<script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.1/js/calcite-web.min.js"></script>
 </head>
 
 <body > 
+
+<div class="panel modifier-class">
+  <h4 class="trailer-half">This is a panel.</h4>
+  <p class="trailer-0">Panels set <code>background-color</code> and frame content.</p>
+</div>
+
 
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
