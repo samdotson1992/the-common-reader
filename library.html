@@ -39,7 +39,7 @@ var books = {
 
 var text = "<div class='grid-container'> <div class='column-18 pre-3'> <div class='block-group block-group-3-up'>"
 for (var i in books){
-text += "<div class='card block'> <figure class='card-image-wrap'> <img class='card-image' src='"+ books[i].name + "'alt='" + books[i].name + "'> <div class='card-image-caption'></div></figure> <div class='card-content'> <h4> <a href='index.php?book='" +  books[i].number + "'></a></h4></div></div>"
+text += "<div class='card block'> <figure class='card-image-wrap'> <img class='card-image' src='"+ books[i].cover + "'alt='" + books[i].name + "'> <div class='card-image-caption'></div></figure> <div class='card-content'> <h4> <a href='index.php?book='" +  books[i].number + "'></a></h4></div></div>"
 
 } 
 text += "</div> </div></div>"
