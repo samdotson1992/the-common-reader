@@ -4,6 +4,9 @@
 <h1>
 
 <?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+
 $link = mysql_connect('localhost', 'sam', 'Password1@');
 if (!$link) {
     die('Could not connect: ' . mysql_error());
