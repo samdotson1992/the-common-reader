@@ -4,7 +4,7 @@
 <h1>
 
 <?php
-$link = mysql_connect('localhost', 'mysql_user', 'mysql_password');
+$link = mysql_connect('localhost', 'sam', 'Password1@');
 if (!$link) {
     die('Could not connect: ' . mysql_error());
 }
