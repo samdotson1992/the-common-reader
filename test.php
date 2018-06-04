@@ -2,12 +2,22 @@
 <html>
 
 <h1>
-<?php
-$book = $_GET['book'];
 
-echo 'https://www.gutenberg.org/files/' . $book . '/'. $book.  '-h/'. $book . '-h.htm';
+ <?php
+$servername = "localhost";
+$username = "username";
+$password = "password";
 
-?>
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
+?> 
+
 </h1>
 
 </html>

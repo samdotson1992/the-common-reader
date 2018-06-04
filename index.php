@@ -5,6 +5,9 @@
 <link href="main.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" href="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.1/css/calcite-web.min.css">
 <script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.1/js/calcite-web.min.js"></script>
+<link rel="stylesheet" href="\awesomplete-gh-pages\awesomplete.css" /> 
+<script src="\awesomplete-gh-pages\awesomplete.js" async></script> 
+
 </head>
 
 <body > 
