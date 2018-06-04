@@ -3,22 +3,20 @@
 
 <h1>
 
-<?php
-ini_set('display_errors', 1);
-error_reporting(E_ALL);
+ <?php
+$servername = "localhost";
+$username = "sam";
+$password = "Password1@";
 
-$link = mysql_connect('localhost', 'sam', 'Password1@');
-if (!$link) {
-    die('Could not connect: ' . mysql_error());
-}
+// Create connection
+$conn = new mysqli($servername, $username, $password);
 
-$sql = 'CREATE DATABASE my_db';
-if (mysql_query($sql, $link)) {
-    echo "Database my_db created successfully\n";
-} else {
-    echo 'Error creating database: ' . mysql_error() . "\n";
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
-?>
+echo "Connected successfully";
+?> 
 
 </h1>
 
