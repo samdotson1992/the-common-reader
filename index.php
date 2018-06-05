@@ -63,7 +63,24 @@
 </div>
 
 
-
+<div class="dropdown js-dropdown">
+  <!-- extends side-nav -->
+  <button class="btn btn-transparent dropdown-btn js-dropdown-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false">
+    Dropdown Select
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 32 32" class="svg-icon"><path d="M28 9v5L16 26 4 14V9l12 12L28 9z"/></svg>
+  </button>
+  <!-- extends side-nav -->
+  <nav class="dropdown-menu modifier-class" role="menu">
+    <!-- extends side-nav-link -->
+    <span class="dropdown-title">Some Options</span>
+    <a href="#" class="dropdown-link" role="menu-item">Option 1 that has a really long text.</a>
+    <a href="#" class="dropdown-link" role="menu-item">Option 2</a>
+    <a href="#" class="dropdown-link" role="menu-item">Option 3</a>
+    <span class="dropdown-title">More Options</span>
+    <button class="dropdown-link" role="menu-item">Option 4</button>
+    <a href="#" class="dropdown-link" role="menu-item">Option 5</a>
+  </nav>
+</div>
   <div class = "container"> 
 
 <div id = "book">
@@ -101,6 +118,7 @@ echo $mock->saveHTML();
 
 
 <script>
+calcite.init();
 
 var pres = document.getElementsByTagName("pre")
 pres[0].remove()
