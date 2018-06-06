@@ -7,61 +7,8 @@
 <script src="https://s3-us-west-1.amazonaws.com/patterns.esri.com/files/calcite-web/1.0.1/js/calcite-web.min.js"></script>
 <link rel="stylesheet" href="\awesomplete-gh-pages\awesomplete.css" /> 
 <script src="\awesomplete-gh-pages\awesomplete.js" async></script> 
-
 </head>
-
 <body > 
-
-<div class="panel modifier-class">
-
-
-<nav  class="dropdown-menu modifier-class" >
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">The Common Reader</a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="library.html">Library</a></li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Background Color<span class="caret"></span></a>
-        <ul class="dropdown-menu">
-        <li> <button  href="#" class = "btn-lg dropdown-link" style="background-color:whitesmoke" type="button"
- role="menu-item" onclick="document.getElementById('book').style.backgroundColor = 'whitesmoke'"> </button></li>        
-<li> <button  href="#" class ="btn-lg dropdown-link" style="background-color:#efcba7" type="button"
-         role="menu-item" onclick="document.getElementById('book').style.backgroundColor = '#efcba7'"> </button></li>
-        </ul>
-      </li>
-      <li class="dropdown"><a class="dropdown-title" data-toggle="dropdown" href="#">  Font Size <span class="caret"></span></a>
-        <ul class="dropdown-btn">
-          <li> <button  href="#" class ="btn dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontSize = 'x-small'" > x-small  </button></li>
-          <li> <button  href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontSize = 'small'" > small  </button></li>
-          <li> <button  href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontSize = 'medium'" > medium  </button></li>
-          <li> <button  href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontSize = 'large'" > large  </button></li>
-          <li> <button  href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontSize = 'x-large'" > x-large  </button></li>
-          <li> <button  href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontSize = 'xx-large'" > xx-large  </button></li>
-        </ul>
-      </li>
-      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> Font Style  <span class="caret"></span></a>
-        <ul class="dropdown-btn">
-          <li> <button style = "font-family:Verdana" href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontFamily = 'Verdana'" > Verdana </button></li>
-          <li> <button style = "font-family:Lucida Console" href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontFamily = 'Lucida Console'" >Lucida Console</button></li>
-          <li> <button style = "font-family:Arial" href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontFamily = 'Arial'" > Arial </button></li>
-          <li> <button style = "font-family:Tahoma" href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontFamily = 'Tahoma'" >Tahoma</button></li>
-          <li> <button  style = "font-family:Times New Roman" href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontFamily = 'Times New Roman'" > Times New Roman </button></li>
-          <li> <button style = "font-family:Georgia" href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontFamily = 'Georgia'" >Georgia</button></li>
-        </ul>
-      </li>
-
-  <li class="dropdown"> <a class="dropdown-toggle" data-toggle="dropdown" href="#"> Chapter <span class="caret"></span></a>
-        <ul class="dropdown-btn" id = "toc" >
-           
-        </ul>
-      </li>
-        </ul>
-    </ul>
-  </div>
-</nav>
-</div>
-
 
 <div class="panel modifier-class">
 <nav  class="leader-1"> 
