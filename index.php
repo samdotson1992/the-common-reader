@@ -80,6 +80,24 @@
     <a> <button  href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontSize = 'xx-large'" > xx-large  </button></a>
   </nav>
   </div>
+  <div class="dropdown js-dropdown">
+  <!-- extends side-nav -->
+  <button class="btn btn-transparent dropdown-btn js-dropdown-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false"> Font size</button>
+  <!-- extends side-nav -->
+  <nav class="dropdown-menu modifier-class" role="menu">
+    <!-- extends side-nav-link -->
+ 
+    <li> <button style = "font-family:Verdana" href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontFamily = 'Verdana'" > Verdana </button></a>
+      <a> <button style = "font-family:Lucida Console" href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontFamily = 'Lucida Console'" >Lucida Console</button></a>
+      <a> <button style = "font-family:Arial" href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontFamily = 'Arial'" > Arial </button></a>
+      <a> <button style = "font-family:Tahoma" href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontFamily = 'Tahoma'" >Tahoma</button></a>
+      <a> <button  style = "font-family:Times New Roman" href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontFamily = 'Times New Roman'" > Times New Roman </button></a>
+      <a> <button style = "font-family:Georgia" href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontFamily = 'Georgia'" >Georgia</button></a>
+
+
+  </nav>
+  </div>
+
 </nav>
 </div>
   <div class = "container"> 
