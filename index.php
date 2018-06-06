@@ -65,7 +65,7 @@
 
 <div class="panel modifier-class">
 <nav  class="leader-1"> 
-<li class="btn btn-grouped" ><a href="library.html">Library</a></li>
+<li class="btn btn-grouped btn-transparent" ><a href="library.html">Library</a></li>
 <div class="dropdown js-dropdown">
   <!-- extends side-nav -->
   <button class="btn btn-transparent dropdown-btn js-dropdown-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false"> Font size</button>
