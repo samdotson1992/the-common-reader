@@ -62,8 +62,10 @@
 </nav>
 </div>
 
-<div class="panel modifier-class">
 
+<div class="panel modifier-class">
+<nav  class="leader-1"> 
+<li class="btn btn-grouped" ><a href="library.html">Library</a></li>
 <div class="dropdown js-dropdown">
   <!-- extends side-nav -->
   <button class="btn btn-transparent dropdown-btn js-dropdown-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false"> Font size</button>
@@ -78,6 +80,7 @@
     <a> <button  href="#" class ="btn  dropdown-link"  role="menu-item" onclick = "document.getElementById('book').style.fontSize = 'xx-large'" > xx-large  </button></a>
   </nav>
   </div>
+</nav>
 </div>
   <div class = "container"> 
 
