@@ -29,7 +29,7 @@
   </div>
   <div class="dropdown js-dropdown">
   <!-- extends side-nav -->
-  <button class="btn btn-transparent dropdown-btn js-dropdown-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false"> Font size</button>
+  <button class="btn btn-transparent dropdown-btn js-dropdown-toggle" tabindex="0" aria-haspopup="true" aria-expanded="false"> Font style</button>
   <!-- extends side-nav -->
   <nav class="dropdown-menu modifier-class" role="menu">
     <!-- extends side-nav-link -->

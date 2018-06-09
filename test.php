@@ -27,9 +27,9 @@ $sql = "CREATE TABLE books_info (
     id INT(10) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(500),
     number INT(10),
-    cover_url VARCHAR(500),
+    coverurl VARCHAR(500),
     desc VARCHAR(500),
-    gut_rul VARCHAR(500)
+    gutrul VARCHAR(500)
     )";
     
 
